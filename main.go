@@ -21,4 +21,10 @@ func main() {
 
   sTax, fTax := calculateTax(100.00)
   fmt.Println("Calculating taxes for $100.00: ", sTax, fTax)
+
+// pointers repositories
+//
+number:=10 
+incrementByValue(&number)
+fmt.Println("Incremented value is:", number)
 }
